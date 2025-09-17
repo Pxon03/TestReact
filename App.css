@@ -1,0 +1,64 @@
+
+.app-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.number-input-container input {
+  padding: 6px 10px;
+  margin-right: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.number-input-container button {
+  padding: 6px 14px;
+  margin-right: 6px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.number-input-container button:hover {
+  background: #1565c0;
+}
+
+.result-box {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.result-list {
+  margin: 6px 0 12px 0;
+  min-height: 20px;
+  color: #1976d2;
+  font-weight: bold;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media (max-width: 500px) {
+  .app-container {
+    padding: 8px;
+  }
+  .filter-section {
+    flex-direction: column;
+    gap: 0;
+  }
+}

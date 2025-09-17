@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Random Sum Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>EX 6 - Random Sum Quiz</h1>
+    <p>กรอกตัวเลขสำหรับจำนวนตัวเลขที่ต้องการนำมาคำนวณ (default = 5). ตัวเลขเป็นเลข 5 หลักนับจาก -1000 ถึง 1000 แต่ละหลักจะสุ่ม + / - แล้วแสดงผลเป็นนิพจน์ และสร้างคำตอบ 9 ปุ่ม (1 ถูก, 8 ผิด) หากคลิกถูกจะแจ้งเตือนถูกต้องและรีเซ็ตใหม่</p>
+
+    <div class="controls">
+      <label for="count">Number random min 2:</label>
+      <input id="count" type="number" min="1" value="5">
+      <button id="submit">Submit</button>
+    </div>
+
+    <div id="expression" class="expression"></div>
+    <div id="answers" class="answers"></div>
+    <div id="message" class="message"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

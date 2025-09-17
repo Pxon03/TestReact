@@ -1,0 +1,16 @@
+cd C:\testreact6
+npm test* { box-sizing: border-box; font-family: Arial, "Noto Sans Thai", sans-serif }
+body { background:#fafafa; color:#222; margin:0; padding:20px }
+.container { max-width:900px; margin:0 auto; background:white; padding:20px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.05) }
+.controls { display:flex; gap:10px; align-items:center; margin-bottom:20px }
+#count { width:80px; padding:8px; font-size:14px }
+button { background:#007bff; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer }
+button:active { transform:translateY(1px) }
+.expression { display:flex; gap:10px; align-items:center; margin:20px 0; flex-wrap:wrap }
+.box { min-width:60px; padding:12px; border:1px solid #e3e3e3; border-radius:8px; text-align:center; font-weight:700; color:#2e7d32 }
+.op { color:#d32f2f; font-weight:700 }
+.answers { display:flex; gap:12px; flex-wrap:wrap }
+.answer-btn { min-width:100px; padding:10px 14px; border-radius:8px; border:1px solid #ddd; background:#fff; cursor:pointer }
+.answer-btn.correct { border-color:#2e7d32 }
+.answer-btn.wrong { border-color:#d32f2f }
+.message { margin-top:16px; font-weight:700 }
